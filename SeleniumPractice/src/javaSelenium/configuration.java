@@ -16,7 +16,7 @@ public class configuration{
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
 		System.out.println(driver.getTitle());
-	//	driver.quit();
+		driver.quit();
 	}
 
 }
